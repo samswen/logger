@@ -26,7 +26,7 @@ function setup(arg) {
         if (typeof arg === 'string') {
             level = arg;
         } else {
-            level = config.get('log_level', 'debug');
+            level = arg.get('log_level', 'debug');
         }
     }
     index = levels.indexOf(level);
