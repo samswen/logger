@@ -1,0 +1,29 @@
+{
+  "name": "@samwen/logger",
+  "version": "1.0.0",
+  "description": "a simple logger",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samswen/to-string.git"
+  },
+  "keywords": [
+    "logger",
+    "terminal color text"
+  ],
+  "author": "Sam Wen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samswen/to-string/issues"
+  },
+  "homepage": "https://github.com/samswen/to-string#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^6.2.3",
+    "sinon": "^8.1.1"
+  }
+}
