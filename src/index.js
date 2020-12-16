@@ -34,7 +34,8 @@ function setup(arg) {
         index = 3;
     }
     show_color = true;
-    if (process.env.GCP_PROJECT || process.env.AWS_EXECUTION_ENV || process.env.stage_env === 'production') { 
+    if (process.env.GCP_PROJECT || process.env.AWS_EXECUTION_ENV || 
+        process.env.stage_env === 'production' || process.env.LOGGER_NO_COLOR === 'TRUE') { 
         show_color = false;
     }
 }
