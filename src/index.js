@@ -34,7 +34,7 @@ function setup(arg) {
         index = 3;
     }
     show_color = true;
-    if (process.env.GCP_PROJECT || process.env.AWS_LAMBDA_FUNCTION_VERSION || process.env.NODE_ENV === 'production' || process.env.stage_env === 'production') { 
+    if (process.env.GCP_PROJECT || process.env.AWS_EXECUTION_ENV || process.env.stage_env === 'production') { 
         show_color = false;
     }
 }
