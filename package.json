@@ -1,6 +1,6 @@
 {
   "name": "@samwen/logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a simple logger",
   "main": "src/index.js",
   "scripts": {
